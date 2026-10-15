@@ -3,7 +3,6 @@
 html {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
- 
 }
 
 *,
@@ -35,4 +34,41 @@ header a {
   text-decoration: none;
   display: inline-block;
   padding: 8px;
+}
+
+#hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 0 10vw;
+  display: flex;
+  height: 42vh;
+  align-items: center;
+  gap: 12px;
+}
+
+#hero .content, 
+#hero .placeholder {
+  flex: 1;
+}
+
+.content h2 {
+  font-size: 48px;
+}
+
+.content button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 32px;
+  border: 0px;
+  border-radius: 8px;  
+  margin: 12px 0;
+}
+
+#hero .placeholder {
+  flex: 1;
+  background-color: #fff6;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
