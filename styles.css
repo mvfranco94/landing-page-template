@@ -104,3 +104,28 @@ header a {
   height: 150px;
   margin-bottom: 12px;
 }
+
+#quote {
+  padding: 0 10vw;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  height: 50vh;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+}
+
+#quote figure {
+  display: flex;
+  flex-direction: column;
+}
+
+#quote figcaption {
+  align-self: flex-end;
+  font-weight: 700;
+  font-size: 24px;
+  font-style: normal;
+}
