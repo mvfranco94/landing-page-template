@@ -166,3 +166,14 @@ header a {
   padding: 4px 32px;
   font-weight: 700px;
 }
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+
+}
