@@ -129,3 +129,40 @@ header a {
   font-size: 24px;
   font-style: normal;
 }
+
+#signup {
+  padding: 0 10vw;
+  height: 42vh;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+
+#signup .container {
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  width: 100%;
+  padding: 50px 100px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+#signup .info {
+  margin-right: auto;
+}
+
+#signup .info p {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#signup button {
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
+  color: #f9faf8;
+  padding: 4px 32px;
+  font-weight: 700px;
+}
